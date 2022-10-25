@@ -1,0 +1,96 @@
+h1, h4{
+    z-index: 10;
+}
+#box2{
+    box-shadow: 2px 2px 5px grey;  
+    z-index: 10;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+@keyframes scale1 {
+    0% {
+        transform: translate(-50px, 0 );
+    }
+
+    50%{
+        transform: translate(700px, -700px );
+    }
+
+    100% {
+        transform: translate(-50px, 500 );
+    }
+} 
+#img1{
+    animation-name: scale1;
+    animation-duration: 14000ms;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-delay:100ms;
+}
+
+@keyframes scale2 {
+    0% {
+        transform: translate(700px, -900px );
+    }
+
+    50% {
+        transform: translate(-100px, 700px );
+    }
+
+    100% {
+        transform: translate(300px, -700px );
+    }
+}
+#img2{
+    animation-name: scale2;
+    animation-duration: 16000ms;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-delay:100ms;
+}
+
+@keyframes scale3 {
+    0% {
+        transform: translate(700px, -700px );
+    }
+
+    50% {
+        transform: translate(-500px, 1000px );
+    }
+
+    100% {
+        transform: translate(100px, -1000px );
+    }
+}
+#img3{
+    animation-name: scale3;
+    animation-duration: 18000ms;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-delay:100ms;
+}
+
+@keyframes scale4 {
+    0% {
+        transform: translate(-1000px, 700px );
+    }
+
+    50%{
+        transform: translate(100px, -900px );
+    }
+
+    100%{
+        transform: translate(-1000px, 900px );
+    }
+}
+#img4{
+    animation-name: scale4;
+    animation-duration: 20000ms;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-delay:100ms;
+}
